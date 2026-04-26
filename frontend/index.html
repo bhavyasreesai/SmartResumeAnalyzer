@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Resume Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="emoji-bg">
+    <span>📚</span>
+    <span>💼</span>
+    <span>🎓</span>
+    <span>💻</span>
+    <span>📝</span>
+    <span>🚀</span>
+    <span>📊</span>
+    <span>🧠</span>
+    <span>🔍</span>
+    <span>🏆</span>
+</div>
+
+<div class="container">
+    <h1>Smart Resume Analyzer</h1>
+    <p>Analyze your resume and compare it with a job description.</p>
+
+    <h3>Resume</h3>
+    <textarea id="resumeText" placeholder="Paste your resume here..."></textarea>
+
+    <h3>Job Description</h3>
+    <textarea id="jobText" placeholder="Paste job description here..."></textarea>
+
+    <button onclick="analyze()">Analyze Resume</button>
+
+    <div class="result-box">
+        <h2>Analysis Result</h2>
+        <p id="result">Your result will appear here.</p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

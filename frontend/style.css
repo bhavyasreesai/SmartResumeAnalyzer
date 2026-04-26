@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #9c5491, #ff6ec4);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.emoji-bg span {
+    position: fixed;
+    font-size: 45px;
+    opacity: 0.22;
+}
+
+.emoji-bg span:nth-child(1) { top: 12%; left: 8%; }
+.emoji-bg span:nth-child(2) { top: 20%; right: 10%; }
+.emoji-bg span:nth-child(3) { bottom: 15%; left: 12%; }
+.emoji-bg span:nth-child(4) { bottom: 20%; right: 14%; }
+.emoji-bg span:nth-child(5) { top: 45%; left: 5%; }
+.emoji-bg span:nth-child(6) { top: 48%; right: 6%; }
+.emoji-bg span:nth-child(7) { top: 75%; left: 35%; }
+.emoji-bg span:nth-child(8) { top: 10%; left: 45%; }
+.emoji-bg span:nth-child(9) { bottom: 8%; right: 35%; }
+.emoji-bg span:nth-child(10) { top: 72%; right: 22%; }
+
+.container {
+    background: rgba(255, 255, 255, 0.95);
+    width: 700px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+    text-align: center;
+    z-index: 1;
+}
+
+h1 {
+    color: #9c5491;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    text-align: left;
+    margin-left: 5%;
+    color: #333;
+}
+
+p {
+    color: #555;
+}
+
+textarea {
+    width: 90%;
+    height: 200px;
+    padding: 15px;
+    font-size: 15px;
+    border: 2px solid #ddd;
+    border-radius: 12px;
+    resize: none;
+    outline: none;
+    margin: 10px auto;
+    display: block;
+}
+
+textarea:focus {
+    border-color: #ff6ec4;
+    box-shadow: 0 0 8px #ff6ec4;
+}
+
+button {
+    margin: 20px auto;
+    background: linear-gradient(135deg, #9c5491, #ff6ec4);
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.result-box {
+    margin-top: 25px;
+    text-align: left;
+    background: linear-gradient(135deg, #f8e6ff, #ffe4f3);
+    padding: 20px;
+    border-radius: 12px;
+    border-left: 5px solid #9c5491;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
